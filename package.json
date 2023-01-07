@@ -1,0 +1,17 @@
+{
+  "name": "webproject",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./node_modules/parcel-bundler/bin/cli serve ./src/index.html --port 8080"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.20",
+    "parcel-bundler": "^1.12.5",
+    "phaser": "^3.55.2"
+  },
+  "description": ""
+}
